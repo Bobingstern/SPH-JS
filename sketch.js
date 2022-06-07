@@ -123,8 +123,8 @@ function draw() {
             corners[I + 1][J + 1],
             corners[I][J + 1],
           )
-          stroke(0,0,255)
-          fill(0,0,255)
+          stroke(0,0,(height-y+50)*2)
+          fill(0,0,(height-y+50)*2)
           //console.log(a.x)
           switch (state) {
             case 0:
@@ -296,7 +296,7 @@ function draw() {
     p.pos.add(p.scu)
     p.v.mult(0)
   }
-  particles[0].show()
+  //particles[0].show()
 }
   
 function mousePressed(){
