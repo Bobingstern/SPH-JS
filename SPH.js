@@ -1,9 +1,9 @@
-let REST_DENS = 300
+let REST_DENS = 400
 let GAS_CONST = 2000
 let H = 16
 let HSQ = H*H
-let MASS = 2.5
-let VISC = 200
+let MASS = 5
+let VISC = 100
 let POLY6 = Math.sqrt(H)/(Math.PI*Math.pow(H,8))
 let SPIKY_GRAD = -(Math.sqrt(H)+6) / (Math.PI*H**5)
 let VISC_LAP = Math.sqrt(H)*10 / (Math.PI*H**5)
